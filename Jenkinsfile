@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Preparation') {
             steps {
-                git url: 'https://github.com/bhorvath/PopupButton.git', credentialsId: 'bitbucket'
+                git url: 'https://github.com/carmacloud/PopupButton.git', credentialsId: 'bitbucket'
             }
         }
         stage('Build') {
