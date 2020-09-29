@@ -6,3 +6,4 @@ WebContent/VAADIN/widgetsets
 target
 .idea
 .idea_modules
+/classes/
